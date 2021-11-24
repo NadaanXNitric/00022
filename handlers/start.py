@@ -22,10 +22,10 @@ async def start(_, message: Message):
                          "🌸 𝐎𝐰𝐧𝐞𝐫 ", url="https://t.me/official_nitric")
                   ],[
                     InlineKeyboardButton(
-                        "💡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url="https://t.me/sanki_bots_support"
+                        "💡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url="https://t.me/sanki_BOTs"
                     ),
                     InlineKeyboardButton(
-                        "📌 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url="https://t.me/crowrace"
+                        "📌 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url="https://t.me/Sanki_BOTs_Support"
                     )
                 ],[ 
                     InlineKeyboardButton(
