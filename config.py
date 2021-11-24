@@ -18,7 +18,7 @@ DURATION_LIMIT = int(getenv("DURATION_LIMIT", "180"))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ . !").split())
 
 BOT_OWNER = int(os.environ.get("BOT_OWNER")) # Your Telegram User ID
-ASSISTANT_NAME = int(os.environ.get("ASSISTANT_NAME")) #Userbot Assistant ID
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "NovoAssistant") #Userbot Assistant ID
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split())) # Sudo users IDs, They are admins everywhere
 BOT_USERNAME = os.environ.get("BOT_USERNAME") # Your Bot's Username without "@"
 DATABASE_URL = os.environ.get("DATABASE_URL") #mongo database url for more info contact in support group
