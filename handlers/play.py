@@ -31,9 +31,9 @@ async def _(bot: Client, cmd: command):
 PLAYMSG_BUTTONS = InlineKeyboardMarkup(
     [
             [
-                InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/Sanki_BOTs")
+                InlineKeyboardButton("💡 ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/Sanki_BOTs")
             ],[
-                InlineKeyboardButton("🗑", callback_data="close")
+                InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="close")
             ]
         ]
     )
@@ -116,9 +116,9 @@ async def nplay(_, message: Message):
     bttn = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/Sanki_BOTs")
+                InlineKeyboardButton("💡 ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/Sanki_BOTs")
             ],[
-                InlineKeyboardButton("🗑", callback_data="close")
+                InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="close")
             ]
         ]
     )
