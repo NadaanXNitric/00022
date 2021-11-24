@@ -25,8 +25,8 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME") # Your Bot's Username without "@"
 DATABASE_URL = os.environ.get("DATABASE_URL") #mongo database url for more info contact in support group
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL")) # Your Log Channel! Make a private channel and get it's ID
 BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False)) # If you need to broadcast messages as a copy or Forwarded Message
-THUMB_URL = os.environ.get("THUMB_URL", "https://telegra.ph/file/0bb51f04fa6fe2252c945.jpg")
-ZAID_QUE = os.environ.get("ZAID_QUE", "https://telegra.ph/file/c16cbc1b51444436477c6.jpg")
+THUMB_URL = os.environ.get("THUMB_URL", "https://telegra.ph/file/c30a6eb748136848acc03.jpg")
+ZAID_QUE = os.environ.get("ZAID_QUE", "https://telegra.ph/file/8812bc2d4ab6af710ff4a.jpg")
 UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "Sanki_BOTs")
 ZAID_SUPPORT = os.environ.get("ZAID_SUPPORT", "Sanki_BOTs_Support")
 
