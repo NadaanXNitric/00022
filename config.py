@@ -19,6 +19,7 @@ COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ . !").split())
 
 BOT_OWNER = int(os.environ.get("BOT_OWNER")) # Your Telegram User ID
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "NovoAssistant") #Userbot Assistant ID
+BOT_NAME = getenv("BOT_NAME", "𝗡𝗼𝘃𝗼 𝗠𝘂𝘀𝗶𝗰")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split())) # Sudo users IDs, They are admins everywhere
 BOT_USERNAME = os.environ.get("BOT_USERNAME") # Your Bot's Username without "@"
 DATABASE_URL = os.environ.get("DATABASE_URL") #mongo database url for more info contact in support group
