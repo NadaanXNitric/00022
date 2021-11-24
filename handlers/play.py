@@ -151,9 +151,7 @@ async def nplay(_, message: Message):
         views = results[0]["views"]
 
     except Exception as e:
-        await lel.edit(
-            f"**Error:** {e}"
-        )
+        await lel.edit("ɪɴᴘᴜᴛ sᴏɴɢ ɴᴀᴍᴇ ʙᴀʙʏ 😈")
         print(str(e))
         return
     try:    
