@@ -13,11 +13,12 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
+DURATION_LIMIT = int(getenv("DURATION_LIMIT", "180"))
 
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ . !").split())
 
 BOT_OWNER = int(os.environ.get("BOT_OWNER")) # Your Telegram User ID
+ASSISTANT_NAME = int(os.environ.get("ASSISTANT_NAME")) #Userbot Assistant ID
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split())) # Sudo users IDs, They are admins everywhere
 BOT_USERNAME = os.environ.get("BOT_USERNAME") # Your Bot's Username without "@"
 DATABASE_URL = os.environ.get("DATABASE_URL") #mongo database url for more info contact in support group
@@ -25,8 +26,8 @@ LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL")) # Your Log Channel! Make a priv
 BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False)) # If you need to broadcast messages as a copy or Forwarded Message
 THUMB_URL = os.environ.get("THUMB_URL", "https://telegra.ph/file/0bb51f04fa6fe2252c945.jpg")
 ZAID_QUE = os.environ.get("ZAID_QUE", "https://telegra.ph/file/c16cbc1b51444436477c6.jpg")
-UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "SUPERIOR_BOTS")
-ZAID_SUPPORT = os.environ.get("ZAID_SUPPORT", "SUPERIOR_SUPPORT")
+UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "Sanki_BOTs")
+ZAID_SUPPORT = os.environ.get("ZAID_SUPPORT", "Sanki_BOTs_Support")
 
 # SOON ADDING 
 ARQ_API_KEY = getenv("ARQ_API_KEY")
