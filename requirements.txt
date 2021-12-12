@@ -1,4 +1,4 @@
-git+https://github.com/Sorrybabe/downloader
+yt-dlp
 pyrogram
 TgCrypto
 pytgcalls
