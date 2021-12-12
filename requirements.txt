@@ -1,5 +1,5 @@
 git+https://github.com/MrAdityaXD/yt-dl@master
-pyrogram
+git+https://github.com/pyrogram/pyrogram@master
 TgCrypto
 pytgcalls
 python-dotenv
