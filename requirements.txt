@@ -1,4 +1,4 @@
-yt-dlp
+git+https://github.com/MrAdityaXD/yt-dl@master
 pyrogram
 TgCrypto
 pytgcalls
